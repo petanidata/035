@@ -1,13 +1,40 @@
+/* FONTS */
+@font-face {
+    font-family: A1MinChoStd-Bold;
+    src: url(font/A1MinChoStd-Bold.otf);
+}
+
+/* HEADER */
 img {
     position: absolute;
     left: 0px;
     top: 0px;
     z-index: -1;
+    width: 100%;
 }
-.center {
+.navbar-brand, .nav-link {
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 2vw;
+    color: white !important;
+}
+h1 {
     position: absolute;
-    top: 40%;
+    margin-top: 15%;
     width: 100%;
     text-align: center;
     font-size: 5vw;
+    font-family: A1MinChoStd-Bold;
+    letter-spacing: 0.5vw;
+}
+
+/* TECHNICAL INFO */
+.tech-info {
+    margin-top: 44vw;
+    background-color: white;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-size: 4vw;
+    color: #013e8d;
+    padding-top: 3vw ;
+    
 }
