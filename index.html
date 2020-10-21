@@ -13,80 +13,96 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="index.css">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@500&family=Roboto+Condensed:wght@700&family=Sawarabi+Gothic&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
 
     <title>Project JLine 035</title>
 </head>
 
 <body>
-    <!-- HEADER-->
-    <img src="img/bg_header.jpg" alt="">
-    <nav class="navbar navbar-light px-5">
-        <a class="navbar-brand" href="#">LOGO</a>
-        <a class="btn btn-primary ml-auto mr-4">ENTRY</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-                <a class="nav-link" href="#">COMPANY PROFILE</a>
-                <a class="nav-link" href="#">OUR BUSINESS</a>
-                <a class="nav-link" href="#">TOP MESSAGE</a>
-                <a class="nav-link" href="#">RECRUIT</a>
-            </div>
+    <!-- HEADER -->
+    <section class="header">
+        <nav class="navbar">
+            <a class="navbar-brand text-white" href="#">LOGO</a>
+            <button class="btn-entry bg-blue ml-auto text-white">ENTRY</button>
+            <button><i class="fal fa-bars"></i></button>
+            <!--
+            <a class="nav-link" href="#">COMPANY PROFILE</a>
+            <a class="nav-link" href="#">OUR BUSINESS</a>
+            <a class="nav-link" href="#">TOP MESSAGE</a>
+            <a class="nav-link" href="#">RECRUIT</a>
+            -->
+        </nav>
+        <div class="jumbotron jumbotron-fluid">
+            <h1 class="text-white d-flex justify-content-center align-items-center">
+                技術が創る新しい世界
+            </h1>
         </div>
-    </nav>
-    <div class="d-flex justify-content-center text-white">
-        <h1>技術が創る新しい世界</h1>
-    </div>
-    <!-- End HEADER -->
-
+    </section>
+    <!-- END HEADER -->
 
     <!-- TECHNICAL INFO -->
-    <div class="container">
-        <div class="row py-5">
-            <div class="col-lg-12 tech-info">
-                TECHNICAL
-            </div>
-            <div class="col-lg-12 text-center mb-4">
-                この文章はダミーです。
-            </div>
-            <div class="col-lg-12 text-center my-1">
-                この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
-            </div>
-            <div class="col-lg-12 text-center">
-                この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
+    <section class="container tech-info">
+        <div class="row">
+            <div class="col-sm text-center">
+                <h2 class="bg-dblue">TECHNICAL</h2>
+                <p class="grey">この文章はダミーです。</p>
+                <p class="tech-desc">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+                <p class="tech-desc">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
             </div>
         </div>
-    </div>
+    </section>
     <!-- END TECHNICAL INFO-->
 
-
-    <!-- PROJECT FILES -->
-    <div class="row">
-        <div class="col-sm">
+    <!-- PROJECT FILES
+    <section class="row project">
+        <div class="col-md col-project">
             <img src="img/bg_project1.jpg" alt="">
+            <div class="d-flex justify-content-center align-items-center text-white">
+                <p> 01 </p> タイトル
+            </div>
         </div>
-        <div class="col-sm">
-            <img src="img/bg_project2.jpg" alt="">
+        <div class="col-md col-project">
+            <img src="img/bg_project1.jpg" alt="">
+            <div class="d-flex justify-content-center align-items-center text-white">
+                <p> 02 </p> タイトル
+            </div>
         </div>
-        <div class="col-sm">
-            <img src="img/bg_project3.jpg" alt="">
+        <div class="col-md col-project">
+            <img src="img/bg_project1.jpg" alt="">
+            <div class="d-flex justify-content-center align-items-center text-white">
+                <p> 03 </p> タイトル
+            </div>
         </div>
-        <div class="col-sm">
-            <img src="img/bg_project4.jpg" alt="">
+        <div class="col-md col-project">
+            <img src="img/bg_project1.jpg" alt="">
+            <div class="d-flex justify-content-center align-items-center text-white">
+                <p> 04 </p> タイトル
+            </div>
         </div>
-        <div class="col-sm">
-            <img src="img/bg_project5.jpg" alt="">
+        <div class="col-md col-project">
+            <img src="img/bg_project1.jpg" alt="">
+            <div class="d-flex justify-content-center align-items-center text-white">
+                <p> 05 </p> タイトル
+            </div>
         </div>
-    </div>
-    <!-- END PROJECT FILES -->
+    </section>
+    END PROJECT FILES -->
 
-    
+    <!-- AIM INFO -->
+    <section class="container aim-info mb-5">
+        <img src="img/bg_aim.jpg" alt="" class="img-fluid">
+        <div class="text-white text-center">
+            <p class="p-aim">100 年企業をめざして</p>
+            <p>Aiming for 100 years company</p>
+            <button class="b-aim">MORE</button>
+        </div>
+    </section>
+    <!-- END AIM INFO-->
+
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

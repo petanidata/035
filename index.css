@@ -4,37 +4,144 @@
     src: url(font/A1MinChoStd-Bold.otf);
 }
 
-/* HEADER */
-img {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-    width: 100%;
+/* COLOR */
+.bg-blue{
+    background-color: #20559d;
 }
-.navbar-brand, .nav-link {
-    font-family: 'Montserrat', sans-serif;;
-    font-size: 2vw;
-    color: white !important;
-}
-h1 {
-    position: absolute;
-    margin-top: 15%;
-    width: 100%;
-    text-align: center;
-    font-size: 5vw;
-    font-family: A1MinChoStd-Bold;
-    letter-spacing: 0.5vw;
+.bg-dblue{
+    color: #013e8d;
 }
 
-/* TECHNICAL INFO */
-.tech-info {
-    margin-top: 44vw;
+/* HEADER */
+.navbar-brand, .nav-link{
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 2vw;
+    margin: 0vh 2vw;
+}
+button {
+    background-color: transparent;
+    border: none;
+}
+.btn-entry {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1vw;
+    letter-spacing: 0.2vw;
+    padding: 0.7vh 2vw;
+}
+.fa-bars {
+    color: #20559d;
+    margin-right: 2vw;
+    margin-left: 1vw;
+    font-size: 40px;
+}
+.jumbotron {
+    background-image: url(img/bg_header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 930px;
+    margin-top: -75px;
+}
+h1 {
+    font-family: A1MinChoStd-Bold;
+    font-size: 5.5vw;
+    height: 40vw;
+}
+
+/*TECHNICAL INFO*/
+.container.tech-info {
     background-color: white;
-    text-align: center;
+    margin-top: -180px;
+    padding: 4vw 0px;
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+h2 {
     font-family: 'Crimson Text', serif;
-    font-size: 4vw;
-    color: #013e8d;
-    padding-top: 3vw ;
-    
+    font-size: 4.2vw;
+}
+.grey {
+    color: #666666;
+    font-size: 1.3vw;
+    margin-bottom: 2.5vw;
+}
+
+/* PROJECT FILES */
+.project {
+    width: 101%;
+    height: 520px;
+}
+.col-project {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* AIM INFO */
+.p-aim {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: 3vw;
+    margin-top: -15vw;
+    margin-bottom: 4vw;
+}
+.aim-info {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.7vw;
+}
+.b-aim {
+    border-top: 1px solid white;
+    width: 2.5vw;
+    margin-left: 60vw;
+    padding: 0px;
+    color: white;
+}
+
+
+/*======= SMARTPHONE =======*/
+@media screen and (max-width: 768px) {
+    .jumbotron {
+        height: 100%;
+    }
+    .fa-bars {
+        font-size: 1.2rem;
+    }
+    .container.tech-info {
+        margin-top: -8vw;
+    }
+    .tech-desc {
+        margin-bottom: 0.5vw;
+    }   
+    .container.aim-info{
+        padding: 0px 0px;
+    }
+    p.p-aim {
+        margin-top: -17vw;
+    }
+}
+/*======= IPAD POTRAIT =======*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+    .jumbotron {
+        height: 100%;
+    }
+    .fa-bars {
+        font-size: 1.8rem;
+    }
+    .container {
+        width: 70%;
+    }
+    .container.tech-info {
+        margin-top: -90px;
+    }
+    p.p-aim {
+        margin-top: -15vw;
+    }
+}
+
+/*======= IPAD LANDSCAPE =======*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+    .jumbotron {
+        height: 600px;
+    }
+    .container.tech-info {
+        margin-top: -120px;
+    }
 }
