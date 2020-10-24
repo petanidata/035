@@ -194,15 +194,53 @@ h2 {
 }
 
 /* INTERVIEW */
-.p-interview {
-    margin-top: -8vw;
-    color: #666666;
-    font-size: 1vw;
+.img-interview {
+    width: 50%;
+    margin-top: -7.5vw;
+    margin-left: 1vw;
 }
+.interview {
+    color: #666666;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 300;
+    font-size: 0.85vw;
+}
+.p-interview {
+    margin-top: -7.5vw;
+    margin-bottom: 2vw;
+    font-size: 1.15vw;
+}
+.p-interview-info {
+    color: #333333;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 700;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+}
+.p-interview0 {
+    letter-spacing: 0.35vw;
+    margin-bottom: 2vw;
+}
+.btn-interview {
+    color: #013e8d;
+    margin-bottom: 20vw;
+}
+.g-btn-interview {
+    margin-top: 5vw;
+}
+.btn-interview-white {
+    background-color: #FFFFFF;
+    padding: 1vw 0vw 1vw 1.5vw;
+    color: #013e8d;
+}
+.s-interview {
+    margin-left: 15.3vw;
+}
+
 
 /* SECTION 7 */
 .section7 {
-    margin-top: 22.5vw;
+    margin-top: 10vw;
 }
 .section7 .row {
     width: 100%;
